@@ -46,7 +46,7 @@ public class Locators {
         driver.findElement(By.className("signInBtn")).click();
         System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
         driver.findElement(By.linkText("Forgot your password?")).click();
-       Thread.sleep(5000);
+       Thread.sleep(1000);
         driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Samuel");
         driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("samueltest@gmail.com");
         driver.findElement(By.xpath("//input[@placeholder='Email']")).clear();
