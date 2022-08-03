@@ -11,14 +11,14 @@ public class DynamicDropDown {
         driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
         driver.findElement(By.xpath("//a[@value='MAA']")).click();
         Thread.sleep(2000);
-        driver.findElement(By.xpath("(//a[@value='BLR'])[2]")).click();import org.openqa.selenium.By;
+        driver.findElement(By.xpath("(//a[@value='BLR'])[2]")).click();}}
 
 
 //  //a[@value='MAA']  - Xpath for chennai
 
 //  //a[@value='BLR']
 
-                driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+              /*  driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 
                 driver.findElement(By.xpath("//a[@value='BLR']")).click();
 
@@ -40,4 +40,4 @@ public class DynamicDropDown {
 
 
     }
-}
+}*/
